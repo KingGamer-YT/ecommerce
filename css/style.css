@@ -88,21 +88,7 @@ header .logo-nav nav {
   display: none;
 }
 
-.black-layer {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: -100;
-  transition: 0.3s ease-in-out;
-  transition-property: background-color, z-index;
-}
-.layer-active {
-  background-color: var(--Black);
-  z-index: 999;
-  position: fixed;
-}
+
 @media screen and (max-width: 768px) {
   header .logo-nav nav {
     position: fixed;
@@ -177,9 +163,7 @@ header .logo-nav nav ul li a:hover::before {
   opacity: 1;
 }
 
-header .logo-nav nav ul li a:hover {
-  color: var(--Very-vark-blue);
-}
+
 
 header .logo-nav nav ul li:not(:last-child) a {
   margin-right: 25px;
@@ -248,7 +232,6 @@ section .slider-area .images-container {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  user-select: none;
 }
 
 section .slider-area .images-container img {

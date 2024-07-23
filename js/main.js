@@ -1,12 +1,5 @@
 let stockArray = [];
 
-if (window.localStorage.stock) {
-  getItemsFromLocalStorage();
-}
-
-if (stockArray.length === 0) {
-  window.localStorage.clear();
-}
 
 let mobileOnly = document.querySelectorAll(".mobile-only"),
   nav = document.querySelector("header .logo-nav nav"),
